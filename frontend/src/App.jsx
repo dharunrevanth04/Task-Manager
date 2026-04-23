@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000/api/tasks";
+const API = "https://task-manager-0xmz.onrender.com/api/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
